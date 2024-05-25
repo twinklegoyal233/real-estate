@@ -1,0 +1,32 @@
+.h-wrapper{
+    background-color: black;
+    color: white;
+}
+
+.h-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1.5rem;
+  
+
+}
+.navbar{
+    display: flex;
+    gap: 4rem;
+    padding: 0px 200px;
+    align-items: center;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: var(--secondary);
+}
+.navbar :hover{
+    cursor: pointer;
+}
+.button a{
+    display: flex;
+    align-items: center;
+}
