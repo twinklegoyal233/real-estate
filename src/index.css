@@ -37,3 +37,22 @@
     cursor: pointer;
     transform: scale(1.2);
   }
+  .paddings{
+    padding: 1.5rem;
+  }
+  .flexColStart{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .secondaryText {
+    color: rgb(140 139 139);
+    font-size: 0.9rem;
+  }
+  .flexColCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
