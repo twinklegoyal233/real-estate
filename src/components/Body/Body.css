@@ -7,9 +7,9 @@
    border: 8px solid rgba(255, 255, 255, 0.12);
 }
 .body-container{
-    justify-content: space-around;
-    align-items : flex-end;
-    width: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+
 }
 .body-wrap{
  color: white;
@@ -17,13 +17,9 @@
     padding-bottom: 2rem;
     position: relative;
 }
-.body-right{
-margin-left: 30rem;
-}
 
 .body-left{
-    flex-direction: column;
-    align-items: flex-start;
+   
     gap: 3rem;
 }
 .body-title{
@@ -51,8 +47,8 @@ margin-left: 30rem;
     border-radius: 5px;
     border: 3px solid rgba(255, 255, 255, 0.374);
     padding: 0.5rem 1rem;
-  width: 70%;
   justify-content: space-between;
+  width: 100%;
 }
 .search-bar>input{
     border: none;

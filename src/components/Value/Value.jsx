@@ -17,7 +17,7 @@ const Value = () => {
   return (
     <div>
       <section className="v-wrap">
-        <div className="paddings flexCenter v-container ">
+        <div className="paddings flexCenter innerWidth v-container ">
           <div className="  v-left">
             <div className="image-container">
               <img src="./value.png" alt="" />

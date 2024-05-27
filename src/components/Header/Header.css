@@ -4,31 +4,24 @@
 }
 
 .h-container{
-    display: flex;
+   
     justify-content: space-between;
-    align-items: center;
-    width: 100%;
+  padding-top: 1rem;
+  padding-bottom:1rem ;
     padding: 1.5rem;
+    color: var(--secondary);
   
 
 }
 .navbar{
-    display: flex;
-    gap: 4rem;
-    padding: 0px 200px;
-    align-items: center;
+ 
+    gap: 2rem;
+   
 }
 
-.navbar a{
-    text-decoration: none;
-    color: var(--secondary);
-}
-.navbar :hover{
+.navbar:hover{
     cursor: pointer;
 }
-.button a{
-    display: flex;
-    align-items: center;
-}
+
 
 

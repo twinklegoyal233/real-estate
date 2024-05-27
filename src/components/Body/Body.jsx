@@ -8,8 +8,8 @@ const Body = () => {
   return (
     <div>
       <section className="body-wrap">
-        <div className=" flexCenter paddings body-container ">
-          <div className=" flexCenter body-left">
+        <div className=" flexCenter innerWidth paddings body-container ">
+          <div className=" flexColStart body-left">
             <div className="body-title">
               <div className="orange-circle"></div>
               <h1>
