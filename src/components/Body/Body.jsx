@@ -2,7 +2,8 @@
 import React from "react";
 import "./Body.css";
 import { HiLocationMarker } from "react-icons/hi";
-import Countup from "react-countup"
+import Countup from "react-countup";
+import {motion} from "framer-motion";
 
 const Body = () => {
   return (
@@ -12,9 +13,13 @@ const Body = () => {
           <div className=" flexColStart body-left">
             <div className="body-title">
               <div className="orange-circle"/>
-              <h1>
+              <motion.h1
+              initial ={{y : "2rem", opacity : 0}}
+              animate = {{y : 0 , opacity : 1}}
+              transition={{duration : 2, type : "spring"}}
+              >
                 Discover <br /> Most Suitable <br /> with Ease{" "}
-              </h1>
+              </motion.h1>
             </div>
             <div className=" flexColStart body-desc">
               <p className="secondaryText" >
@@ -61,9 +66,13 @@ const Body = () => {
           </div>
 
           <div className=" flexCenter body-right  ">
-            <div className="image-container">
+            <motion.div
+              initial = {{x : "7rem", opacity : 0}}
+              animate = {{ x : 0, opacity: 1 }}
+              transition={{duration : 3, type : "spring"}}
+            className="image-container">
               <img src="./hero-image.png" alt="building" />
-            </div>
+            </motion.div>
           </div>
         </div>
       </section>

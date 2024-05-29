@@ -6,7 +6,7 @@ import { FaMessage } from "react-icons/fa6";
 import { MdVideoCall } from "react-icons/md";
 const Contact = () => {
   return (
-    <section className="contact-wrap">
+    <section className="contact-wrap" id="Contact" >
       <div className="paddings innerWidth flexCenter contact-container">
         <div className=" flexColStart  contact-left">
           <span className="orangeText">Our Contacts</span>

@@ -24,12 +24,11 @@ const Header = () => {
      <div className=" flexCenter navbar"
       style={getMenuStyles(menuOpen)}
       >
-        <a href="">Residencies</a>
-        <a href="">Our Values </a>
-        <a href="">Contact Us</a>
-        <a href="">Get Started</a>
+        <a href="#residencies">Residencies</a>
+        <a href="#Values">Our Values </a>
+        <a href="#GetStarted">Get Started</a>
         <button className="button" >
-        <a href="">Contact</a>
+        <a href="#Contact">Contact</a>
         </button >
         </div>
        </OutsideClickHandler>
