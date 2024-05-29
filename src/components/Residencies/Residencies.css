@@ -74,4 +74,12 @@
     cursor: pointer;
     background-color: #EEEEFF;
 }
+@media (max-width : 640px) {
+        .r-head{
+            align-items: center;
+        }
+        .r-buttons{
+            position: static;
+        }
+}
 

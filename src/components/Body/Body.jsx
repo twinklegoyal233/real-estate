@@ -11,9 +11,9 @@ const Body = () => {
         <div className=" flexCenter innerWidth paddings body-container ">
           <div className=" flexColStart body-left">
             <div className="body-title">
-              <div className="orange-circle"></div>
+              <div className="orange-circle"/>
               <h1>
-                Discover <br /> Perfect Properties <br /> with Ease{" "}
+                Discover <br /> Most Suitable <br /> with Ease{" "}
               </h1>
             </div>
             <div className=" flexColStart body-desc">
@@ -30,7 +30,7 @@ const Body = () => {
               <input type="text" />
               <button className="button">Search</button>
             </div>
-          <div className="flexCenter Stats">
+          <div className="flexCenter stats">
             <div className="flexColCenter stat">
               <span>
                 <Countup start={8000} end={9000} duration={4}/>
@@ -61,7 +61,7 @@ const Body = () => {
           </div>
 
           <div className=" flexCenter body-right  ">
-            <div className=" image-container">
+            <div className="image-container">
               <img src="./hero-image.png" alt="building" />
             </div>
           </div>

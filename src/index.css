@@ -75,6 +75,18 @@
   .innerWidth{
     width: 100%;
   }
+  .flexStart {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .flexEnd {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
 
   @media (min-width: 1536px) {
     .innerWidth {
